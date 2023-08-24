@@ -13,7 +13,7 @@ label {
 input {
   width: 400px;
   line-height: 40px;
-  margin-bottom: 30px;
+  
   color: #555;
   padding-left: 20px;
 }
@@ -28,4 +28,12 @@ button {
   box-sizing: border-box;
   font-size: 20px;
   cursor: pointer;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
 }
